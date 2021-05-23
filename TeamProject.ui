@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>915</width>
+    <height>628</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>운전면허 시험 도우미</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background:white;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="btn_1">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>570</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> QPushButton#btn_1:disabled { font: 14pt &quot;DX방탄고딕&quot;;
+border-radius: 5px;
+border: 2px solid rgb(0, 85, 197);
+color: white;
+background-color: rgb(0, 85, 197);
+text-align: center;}
+QPushButton#btn_1:enabled{ font: 14pt &quot;DX방탄고딕&quot;;
+border-radius: 5px;
+border: 2px solid rgb(58, 134, 255);
+color: white;
+background-color: rgb(58, 134, 255);
+text-align: center; }
+QPushButton#btn_1:hover{ font: 14pt &quot;DX방탄고딕&quot;;
+border-radius: 5px;
+border: 2px solid rgb(58, 134, 255);
+color: rgb(58, 134, 255);
+background-color: white;
+text-align: center;  }
+
+</string>
+    </property>
+    <property name="text">
+     <string>다음</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>570</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> QPushButton#btn_2:disabled { font: 14pt &quot;DX방탄고딕&quot;;
+border-radius: 5px;
+border: 2px solid rgb(0, 85, 197);
+color: white;
+background-color: rgb(0, 85, 197);
+text-align: center;}
+QPushButton#btn_2:enabled{ font: 14pt &quot;DX방탄고딕&quot;;
+border-radius: 5px;
+border: 2px solid rgb(58, 134, 255);
+color: white;
+background-color: rgb(58, 134, 255);
+text-align: center; }
+QPushButton#btn_2:hover{ font: 14pt &quot;DX방탄고딕&quot;;
+border-radius: 5px;
+border: 2px solid rgb(58, 134, 255);
+color: rgb(58, 134, 255);
+background-color: white;
+text-align: center;  }
+
+</string>
+    </property>
+    <property name="text">
+     <string>이전</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_3">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>420</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> QPushButton#btn_3:disabled { font: 14pt &quot;DX방탄고딕&quot;;
+border-radius: 5px;
+border: 2px solid rgb(0, 85, 197);
+color: white;
+background-color: rgb(0, 85, 197);
+text-align: center;}
+QPushButton#btn_3:enabled{ font: 14pt &quot;DX방탄고딕&quot;;
+border-radius: 5px;
+border: 2px solid rgb(58, 134, 255);
+color: white;
+background-color: rgb(58, 134, 255);
+text-align: center; }
+QPushButton#btn_3:hover{ font: 14pt &quot;DX방탄고딕&quot;;
+border-radius: 5px;
+border: 2px solid rgb(58, 134, 255);
+color: rgb(58, 134, 255);
+background-color: white;
+text-align: center;  }
+
+</string>
+    </property>
+    <property name="text">
+     <string>입력</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>420</y>
+      <width>211</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;DX방탄고딕&quot;;
+border-radius: 5px;
+border: 2px solid rgb(58, 134, 255);
+color: rgb(58, 134, 255);
+background-color: white;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label01">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>420</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>DX방탄고딕</family>
+      <pointsize>14</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;DX방탄고딕&quot;;
+border-radius: 5px;
+border: 2px solid rgb(58, 134, 255);
+color: white;
+background-color: rgb(58, 134, 255);
+text-shadow: 1px 1px 20px #000000;
+text-align: center;</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;정답&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="pict01">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>40</y>
+      <width>911</width>
+      <height>341</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>나눔손글씨 펜</family>
+      <pointsize>25</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label02">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>60</y>
+      <width>411</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>DX방탄고딕</family>
+      <pointsize>14</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;DX방탄고딕&quot;;
+border-radius: 10px;
+border: 2px solid rgb(58, 134, 255);
+color: rgb(58, 134, 255);
+background-color: white;
+text-align: center;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_5">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>370</y>
+      <width>251</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>DX방탄고딕</family>
+      <pointsize>16</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> QPushButton#btn_5:disabled { font: 16pt &quot;DX방탄고딕&quot;;
+border-radius: 5px;
+border: 2px solid rgb(0, 85, 197);
+color: white;
+background-color: rgb(0, 85, 197);
+text-align: center;}
+QPushButton#btn_5:enabled{ font: 16pt &quot;DX방탄고딕&quot;;
+border-radius: 5px;
+border: 2px solid rgb(58, 134, 255);
+color: white;
+background-color: rgb(58, 134, 255);
+text-align: center; }
+QPushButton#btn_5:hover{ font: 16pt &quot;DX방탄고딕&quot;;
+border-radius: 5px;
+border: 2px solid rgb(58, 134, 255);
+color: rgb(58, 134, 255);
+background-color: white;
+text-align: center;  }</string>
+    </property>
+    <property name="text">
+     <string>틀린문제 다시풀기</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_4">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>460</y>
+      <width>251</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> QPushButton#btn_4:disabled { font: 16pt &quot;DX방탄고딕&quot;;
+border-radius: 5px;
+border: 2px solid rgb(0, 85, 197);
+color: white;
+background-color: rgb(0, 85, 197);
+text-align: center;}
+QPushButton#btn_4:enabled{ font: 16pt &quot;DX방탄고딕&quot;;
+border-radius: 5px;
+border: 2px solid rgb(58, 134, 255);
+color: white;
+background-color: rgb(58, 134, 255);
+text-align: center; }
+QPushButton#btn_4:hover{ font: 16pt &quot;DX방탄고딕&quot;;
+border-radius: 5px;
+border: 2px solid rgb(58, 134, 255);
+color: rgb(58, 134, 255);
+background-color: white;
+text-align: center;  }
+
+</string>
+    </property>
+    <property name="text">
+     <string>채점하기</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="ans_text">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>140</y>
+      <width>851</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;DX방탄고딕&quot;;
+border-radius: 20px;
+border: 2px solid rgb(58, 134, 255);
+color: rgb(58, 134, 255);
+background-color: white;
+text-align: center;
+</string>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DX방탄고딕'; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:16pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_6">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>200</y>
+      <width>441</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#btn_6:disabled { font: 18pt &quot;DX방탄고딕&quot;;
+border-radius: 5px;
+border: 2px solid rgb(0, 85, 197);
+color: white;
+background-color: rgb(0, 85, 197);
+text-align: center;}
+QPushButton#btn_6:enabled{ font: 18pt &quot;DX방탄고딕&quot;;
+border-radius: 5px;
+border: 2px solid rgb(58, 134, 255);
+color: white;
+background-color: rgb(58, 134, 255);
+text-align: center; }
+QPushButton#btn_6:hover{ font: 18pt &quot;DX방탄고딕&quot;;
+border-radius: 5px;
+border: 2px solid rgb(58, 134, 255);
+color: rgb(58, 134, 255);
+background-color: white;
+text-align: center;  }</string>
+    </property>
+    <property name="text">
+     <string>처음으로</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_7">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>570</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> QPushButton#btn_7:disabled { font: 14pt &quot;DX방탄고딕&quot;;
+border-radius: 5px;
+border: 2px solid rgb(0, 85, 197);
+color: white;
+background-color: rgb(0, 85, 197);
+text-align: center;}
+QPushButton#btn_7:enabled{ font: 14pt &quot;DX방탄고딕&quot;;
+border-radius: 5px;
+border: 2px solid rgb(58, 134, 255);
+color: white;
+background-color: rgb(58, 134, 255);
+text-align: center; }
+QPushButton#btn_7:hover{ font: 14pt &quot;DX방탄고딕&quot;;
+border-radius: 5px;
+border: 2px solid rgb(58, 134, 255);
+color: rgb(58, 134, 255);
+background-color: white;
+text-align: center;  }
+
+</string>
+    </property>
+    <property name="text">
+     <string>답 확인</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label03">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>490</y>
+      <width>391</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;DX방탄고딕&quot;;
+border-radius: 10px;
+border: 2px solid rgb(58, 134, 255);
+color: rgb(58, 134, 255);
+background-color: white;
+text-align: center;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="TeamProject_rc.py"/>
+ </resources>
+ <connections/>
+</ui>
